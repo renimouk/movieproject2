@@ -1,0 +1,83 @@
+body{
+	background-color: rgb(248, 164, 85); 
+	/*background-image: url('../mv.webp');*/
+	background-repeat: no-repeat;
+	background-size: cover;
+
+}
+.navbar-brand{
+	font-size: 20px;
+	font-weight: bold;
+	color:white;
+}
+
+.container-fluid{
+	/*font-size: 20px;
+	font-weight: bold;*/
+	background-color:white;
+}
+
+.rating{
+	font-weight: bold;
+}
+
+.release{
+	font-weight: bold;
+}
+
+.eachMovie{
+	/*background-color: black;*/
+	color:white;
+}
+.btnModal{
+	margin-bottom: 35px;
+	border: black;
+}
+.modal-content{
+	color: black;
+	padding: 2px;
+	min-width: 656px;
+	flex-direction: row !important;
+}
+.moviePosterInModal{
+	padding: 12px;
+	background-color: aqua;
+}
+.movieName{
+	font-size: 30px;
+	font-weight: bold;
+	font-family: 'Carrois Gothic SC', sans-serif;
+}
+.btn-primary{
+	margin: 5px;
+	padding: 5px;
+	background: transparent;
+	color: #5EADFF;
+	border: 1px solid #5EADFF; 
+}
+#movieGenreLabel{
+	color: white;
+}
+.pagination{
+    display:flex;
+    margin:10px 30px;
+    align-items: center;
+    justify-content: center;
+    color:white;
+}
+.page{
+    padding:20px;
+    cursor:pointer;
+}
+
+.page.disabled{
+    cursor:not-allowed;
+    color:grey;
+}
+.current{
+    padding: 10px 20px;
+    border-radius: 50%;
+    border: 5px solid white;
+    font-size: 20px;
+    font-weight: 600;
+}
